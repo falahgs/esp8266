@@ -5,9 +5,9 @@ const int buttonPin = D0;
 
 
 #define firebaseURl "lightlevel-27691.firebaseio.com"
-#define authCode "44mqNnWFZwxBpsstq9jrVJWCnKc8PErnTUAFNx7j"
-#define wifiName "FAF"
-#define wifiPass "302001000"
+#define authCode "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#define wifiName "xxxxxxxxxxxxxxxxxxxxxxx12345"
+#define wifiPass " xxxxxxxxxxxx545454xxxx0"
 String chipId = "123";
 void setupFirebase() {
   Firebase.begin(firebaseURl, authCode);
